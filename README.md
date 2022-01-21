@@ -1,1 +1,1 @@
-HeronukoPoRoyalu777.github.io. 
+HeronukoPoRoyalu777.github.io.
