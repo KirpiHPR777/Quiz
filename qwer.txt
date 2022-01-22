@@ -3,82 +3,82 @@
 /*параметры окна*/
 .test {
     border: 1px solid #FF7A00;
-    margin: 40px auto 0 auto;
-    width: 400px;
+    margin: 140px auto 0 auto;
+    width: 720px;
 }
 
 /*параметры ромба*/
-.diamond {
+.diamond{
     border: 1px solid #FF7A00;
     background-color: #ffffff;
     position: absolute;
-    margin: 20px auto;
-    top: 0;
-    left: 0;
-    right: 0;
-    width: 100px;
-    height: 40px;
-}
-
-/*Параметры текста в ромбе*/
-.score {
-    font: 16px Oswald;
-    color: #FF7A00;
-    margin: 8px auto;
-    text-align: center;
-    font-weight: bold;
-}
-
-/*Параметры картинки*/
-.picture {
-    width: 360px;
-    height: 200px;
-    padding: 40px 20px 0 20px;
-}
-
-/*Параметры заголовка*/
-.title {
-    font: 32px Oswald;
-    font-weight: bold;
-    color: #000000;
-    text-align: center;
-    margin: 44px 40px 0 40px;
-}
-
-/*Параметры краткого описания*/
-.shortDes {
-    font: 20px Oswald;
-    color: black;
-    text-align: justify;
-    line-height: 24px;
-    margin: 8px 20px 40px 20px;
-}
-
-/*активная кнопка посередине - проверено*/
-.next {
-    position: absolute;
+    margin: 100px auto;
     top: 0;
     left: 0;
     right: 0;
     width: 160px;
     height: 80px;
-    margin: 240px auto;
+}
+
+/*Параметры текста в ромбе*/
+.score{
+    font: 24px Oswald;
+    color: #FF7A00;
+    margin: 24px auto;
+    text-align: center;
+    font-weight: bold;
+}
+
+/*Параметры картинки*/
+.picture{
+    width: 640px;
+    height: 400px;
+    padding: 80px 40px 0 40px;
+}
+
+/*Параметры заголовка*/
+.title{
+    font: 48px Oswald;
+    font-weight: bold;
+    color: #000000;
+    text-align: center;
+    margin: 100px 40px 0 40px;
+}
+
+/*Параметры краткого описания*/
+.shortDes{
+    font: 36px Oswald;
+    color: black;
+    text-align: justify;
+    line-height: 36px;
+    margin: 16px 40px 80px 40px;
+}
+
+/*активная кнопка посередине - проверено*/
+.next{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 240px;
+    height: 120px;
+    margin: 560px auto;
     background-color: #FF7A00;
     border: #FF7A00;
     box-shadow: 0 10px 10px #ff7a0066;
     border-radius: 4px;
-    font: 20px Oswald;
+    font: 36px Oswald;
     color: #ffffff;
 }
 
 /*АК при наведении - проверено*/
 .nextMouseover{
-    width: 180px;
+    width: 260px;
 }
 
 /*К снизу - проверено*/
-.nextBottom {
-    margin: 488px auto 0 auto;
+.nextBottom{
+    margin: 1024px auto 0 auto;
 }
 
 /*Неактивная кнопка - проверено*/
@@ -90,52 +90,52 @@
 /*Настройки текста вопроса - просто не лезь сюда*/
 /*настройки родителя*/
 .question {
-    padding-left: 20px;
+	padding-left: 20px;
     padding-right: 20px;
-    line-height: 40px;
+	line-height: 40px;
     position: absolute;
     top: 0;
     left: 0;
     right: 0;
-    margin: 80px auto;
-    width: 360px;
-    height: 200px;
+    margin: 220px auto;
+    width: 600px;
+    height: 400px;
     display: flex;
     flex-direction: column-reverse;
 }
 
 /*настройки текста*/
 .question span {
-    display: inline;
-    background-color: #FF7A00;
-    box-shadow: -10px 0 0 #ff7a00, 10px 0 0 #ff7a00;
-    color: #FFFFFF;
-    font: 20px Oswald;
+	display: inline;
+	background-color: #FF7A00;
+	box-shadow: -10px 0 0 #FF7A00, 10px 0 0 #FF7A00;
+	color: #FFFFFF;
+	font: 36px Oswald;
     font-weight: bold;
-    margin: 0 16px 4px 16px;
+    margin: 0 0 8px 0;
 }
 /**/
 
 /*Настройки для блока кнопок*/
-.answers {
+.answers{
     display: flex;
-    flex-direction: column;
-    margin: 8px 20px 120px 20px;
+	flex-direction: column;
+    margin: 20px 40px 200px 40px;
 }
 
 /*Активная кнопка ответа*/
-.answer {
+.answer{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    width: 360px;
-    height: 40px;
+    width: 640px;
+    height: 80px;
     border: 1px solid #FF7A00;
     background-color: #FFFFFF;
-    font: 20px Oswald;
-    margin: 2px 0;
+    font: 36px Oswald;
+    margin: 4px 0;
     text-align: left;
-    padding: 4px 0 4px 8px;
+    padding: 8px 0 8px 20px;
 }
 
 /*Активная кнопка ответа при наведении*/
@@ -164,7 +164,5 @@
 
 /*Настройки иконки */
 .icon{
-    margin: auto 16px;
-    height: 16px;
-    width: 16px;
+    margin: auto 32px;
 }
