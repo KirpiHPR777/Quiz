@@ -133,7 +133,7 @@ function createFirstQuestion(){
       shuffle(arrOfValue);
       for (let value of arrOfValue){
         //создание кнопки
-        buttonAns = document.createElement('button');
+        buttonAns = document.createElement("button");
         buttonAns.classList.add("answer");
         answers.appendChild(buttonAns);
         buttonAns.innerHTML = value;
