@@ -21,9 +21,9 @@ let pointsQuestion;
 
 //функции событий для основной кнопки
 function mouseNext() {this.classList.toggle("nextMouseover");}
-function clickCreateFirstQuestion(){createFirstQuestion(); this.removeEventListener('click', clickCreateFirstQuestion);}
-function clickCreateNewWindow(){CreateNewWindow(); this.removeEventListener('click', clickCreateNewWindow);}
-function clickStart(){startQuiz(); this.removeEventListener('click', clickStart);}
+function clickCreateFirstQuestion(){createFirstQuestion(); this.removeEventListener("click", clickCreateFirstQuestion);}
+function clickCreateNewWindow(){CreateNewWindow(); this.removeEventListener("click", clickCreateNewWindow);}
+function clickStart(){startQuiz(); this.removeEventListener("click", clickStart);}
 
 //функции событий кнопкам ответов
 function mouseButtonAns() {this.classList.toggle("answerMouseover");}
